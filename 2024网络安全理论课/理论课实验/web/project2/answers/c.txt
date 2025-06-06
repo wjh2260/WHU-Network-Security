@@ -1,1 +1,0 @@
- SELECT "users".* FROM "users" WHERE (username = 'user3 ' or username like 'user3%')
